@@ -1,5 +1,5 @@
 # otus-app
-# Start
+# Start go app
 PORT=80 ADMIN_USER=user ADMIN_PASS=spassword go run main.go
 
 # Access admin panel
@@ -10,4 +10,8 @@ curl -i  http://url/
 
 # Access healthcheck
 curl -i http://url/healthz
+
+
+# Python app with prometheus metrics
+app.py
 
